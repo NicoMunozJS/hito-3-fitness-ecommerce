@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    nombre: 'Proteína Whey',
+    categoria: 'Proteínas',
+    precio: 29990,
+    descripcion: 'Proteína de alta calidad, ideal para recuperación muscular post-entrenamiento.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Whey',
+  },
+  {
+    id: 2,
+    nombre: 'Creatina Monohidratada',
+    categoria: 'Proteínas',
+    precio: 18990,
+    descripcion: 'Aumenta la fuerza y el rendimiento en entrenamientos de alta intensidad.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Creatina',
+  },
+  {
+    id: 3,
+    nombre: 'Multivitamínico Deportivo',
+    categoria: 'Vitaminas',
+    precio: 12990,
+    descripcion: 'Complejo vitamínico diseñado para deportistas activos.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Vitaminas',
+  },
+  {
+    id: 4,
+    nombre: 'Omega 3',
+    categoria: 'Vitaminas',
+    precio: 9990,
+    descripcion: 'Apoya la salud cardiovascular y la recuperación articular.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Omega+3',
+  },
+  {
+    id: 5,
+    nombre: 'Guantes de Entrenamiento',
+    categoria: 'Accesorios',
+    precio: 14990,
+    descripcion: 'Guantes con soporte de muñeca para levantamiento de pesas.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Guantes',
+  },
+  {
+    id: 6,
+    nombre: 'Shaker 700ml',
+    categoria: 'Accesorios',
+    precio: 5990,
+    descripcion: 'Botella mezcladora con malla anti-grumos para batidos de proteína.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Shaker',
+  },
+  {
+    id: 7,
+    nombre: 'Pre-Entreno Energizante',
+    categoria: 'Proteínas',
+    precio: 21990,
+    descripcion: 'Fórmula con cafeína y beta-alanina para máxima energía en el entrenamiento.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Pre-Entreno',
+  },
+  {
+    id: 8,
+    nombre: 'Cinturón de Levantamiento',
+    categoria: 'Accesorios',
+    precio: 24990,
+    descripcion: 'Cinturón de cuero para dar soporte lumbar en levantamientos pesados.',
+    imagen: 'https://placehold.co/300x300/1a1a1a/22c55e?text=Cinturon',
+  },
+];
+
+export default products;
