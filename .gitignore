@@ -7,10 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build
 dist
 dist-ssr
+
+# Local environment files
 *.local
+.env
+.env.*
+!.env.example
+
+# Database backup
+fitness_ecommerce_backup.sql
 
 # Editor directories and files
 .vscode/*
