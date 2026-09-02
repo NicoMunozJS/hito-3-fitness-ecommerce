@@ -13,7 +13,10 @@ function ProductCard({ product, onAddToCart }) {
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{product.nombre}</h5>
         <p className="card-text text-muted">{product.categoria}</p>
-        <p className="card-text fw-bold">${product.precio}</p>
+
+        <p className="card-text fw-bold">
+          ${Number(product.precio).toLocaleString('es-CL')}
+        </p>
 
         <div className="mt-auto d-flex justify-content-between">
           <Link
