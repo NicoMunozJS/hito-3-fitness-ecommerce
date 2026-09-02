@@ -44,7 +44,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark px-3">
       <Link className="navbar-brand" to="/">
-        FitStore
+        DesaFit
       </Link>
 
       <div className="d-flex gap-3 align-items-center">
