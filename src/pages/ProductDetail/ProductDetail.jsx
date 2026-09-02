@@ -35,13 +35,24 @@ function ProductDetail() {
     <div className="container py-4">
       <div className="row g-4">
         <div className="col-md-5">
-          <img src={product.imagen} alt={product.nombre} className="img-fluid rounded" />
+          <img
+            src={product.imagen}
+            alt={product.nombre}
+            className="img-fluid rounded product-detail-image"
+          />
         </div>
+
         <div className="col-md-7">
           <h1>{product.nombre}</h1>
+
           <p className="text-muted">{product.categoria}</p>
+
           <p>{product.descripcion}</p>
-          <p className="fs-4 fw-bold">${product.precio}</p>
+
+          <p className="fs-4 fw-bold">
+            ${Number(product.precio).toLocaleString('es-CL')}
+          </p>
+
           <Button variant="success" onClick={handleAddToCart}>
             Agregar al carrito
           </Button>
